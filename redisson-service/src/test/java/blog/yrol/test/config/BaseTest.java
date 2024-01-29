@@ -23,4 +23,12 @@ public abstract class BaseTest {
     public void shutdown() {
         this.client.shutdown();
     }
+
+    protected void sleep(long millis) throws InterruptedException {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
