@@ -3,12 +3,10 @@ package blog.yrol.test.config;
 import blog.yrol.test.dto.Student;
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RBucketReactive;
-import org.redisson.codec.JsonJacksonCodec;
 import org.redisson.codec.TypedJsonJacksonCodec;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Lec02KeyValueObjectTest extends BaseTest {
