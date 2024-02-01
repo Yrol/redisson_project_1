@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Testing the multiple buckets where Redis can give them as a single key value map
  * **/
-public class Lec03BucketAsMapTest extends BaseTest{
+public class Lec04BucketAsMapTest extends BaseTest{
 
     @Test
     public void bucketAsMap() {

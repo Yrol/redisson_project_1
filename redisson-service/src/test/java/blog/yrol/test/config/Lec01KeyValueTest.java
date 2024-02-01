@@ -83,6 +83,8 @@ public class Lec01KeyValueTest extends BaseTest {
                 .doOnNext(System.out::println)
                 .then();
 
+        // With the StepVerifier API, we can define our expectations of published elements in terms of what elements we expect and what happens when our stream completes.
+        // https://www.baeldung.com/reactive-streams-step-verifier-test-publisher
         StepVerifier.create(timeToLive)
                 .verifyComplete();
     }
