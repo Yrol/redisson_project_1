@@ -1,4 +1,4 @@
-package blog.yrol.test.config;
+package blog.yrol.test;
 
 import blog.yrol.test.dto.Student;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package blog.yrol.test.config;
+package blog.yrol.test;
 
 import org.junit.jupiter.api.Test;
 import org.redisson.api.DeletedObjectListener;

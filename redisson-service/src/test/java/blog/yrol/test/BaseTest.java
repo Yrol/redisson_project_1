@@ -1,5 +1,6 @@
-package blog.yrol.test.config;
+package blog.yrol.test;
 
+import blog.yrol.test.config.RedissonConfig;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
