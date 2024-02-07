@@ -14,7 +14,7 @@ import java.util.stream.LongStream;
 /**
  * HyperLogLog (HLL) is a probabilistic data structure that estimates the number of UNIQUE elements (cardinality) of a set.
  * In short, counting unique items of list require a lot of memory, however in HLL will use 12k bytes in the worst case.
- * HLL accuracy - provides a standard error of 0.81%.
+ * HLL accuracy - provides a standard error of 0.81%, therefore not precise as counting unique items from a list.
  * Use cases: How many unique visits has this page had on this day?
  * Documentation: https://redis.io/docs/data-types/probabilistic/hyperloglogs/#:~:text=of%20a%20set.-,HyperLogLog%20is%20a%20probabilistic%20data%20structure%20that%20estimates%20the%20cardinality,accuracy%20for%20efficient%20space%20utilization.
  * **/
