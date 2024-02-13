@@ -3,6 +3,11 @@
 This project serves as a playground for experimenting with [Redisson](https://github.com/redisson/redisson) (Redis Java client).
 The entire project is driven by test cases, and fundamental features of Redisson are implemented within these test cases for experimental purposes.
 
+The following is covered.
+![](https://i.imgur.com/IaWoOBP.png)
+![](https://i.imgur.com/bjqETvL.png)
+
+
 ### Starting Redis in Docker
 Go to `docker` folder and execute command below
 ```
